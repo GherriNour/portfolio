@@ -29,11 +29,6 @@
     background: url("images/image1.jpg");
     background-size: cover;
     position: relative;
-
-    background-size: cover; /* Pour couvrir tout l'écran */
-  z-index: 0;
- 
-  
 }
 /* text css above hero image*/
 .hero_title {
@@ -104,34 +99,3 @@
 }
 
 /* footer */
-/* Starry background */
-.stars {
-    width: 100%;
-    height: 100%;
-    background: transparent url('https://www.transparenttextures.com/patterns/white-diamond.png') repeat top center;
-
-    z-index: 0;
-    position: absolute;
-    animation: moveStars 50s linear infinite;
-  }
-  
-  /* Twinkling effect */
-  .twinkling {
-    width: 100%;
-    height: 100%;
-    background: transparent url('images/image1.jpg') repeat top center;
-    background-size: cover;
-    z-index: 1;
-    position: absolute;
-    animation: bougerScintillement 60s linear infinite;
-  }
-  
-  @keyframes bougerEtoiles {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-100%); } /* Déplacement continu */
-  }
-  
-  @keyframes bougerScintillement {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-100%); } /* Déplacement continu */
-  }
