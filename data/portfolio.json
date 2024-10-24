@@ -3,18 +3,18 @@
         "image": "image1.png",
         "title": "Booki",
         "text": "Site qui permet aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.",
-        "link": "#"
+        "link": "https://github.com/GherriNour/booki"
     },
     {
         "image": "image2.png",
         "title": "Sophie Bluel",
         "text": "Portfolio d’une architecte d’intérieur                                                 .",
-        "link": "#"
+        "link": "https://github.com/GherriNour/portfolio-architecte-sophie-bluel-master"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
         "text": "Conception du Front-End pour une plateforme de location immobilière avec React.",
-        "link": "#"
+        "link": "https://github.com/GherriNour/Projet08-Kaza"
     }
 ]
