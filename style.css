@@ -26,11 +26,12 @@ img.navbar-brand{
     height: 100PX;
 }
 .nav-link{
+    
     color: #060050 !important;
     font-size: 22px;
 }
 .nav-link:hover{
-    color: antiquewhite !important;
+    color: rgb(255, 251, 246) !important; 
 }
 
 /* hero background image */
@@ -55,7 +56,8 @@ img.navbar-brand{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5) !important;
 }
 
 /* about */
