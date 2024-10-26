@@ -22,6 +22,17 @@
     background-color: #5b5b5b;
 }
 
+img.navbar-brand{
+    height: 100PX;
+}
+.nav-link{
+    color: #060050 !important;
+    font-size: 22px;
+}
+.nav-link:hover{
+    color: antiquewhite !important;
+}
+
 /* hero background image */
 .bgimage {
     height: 100vh;

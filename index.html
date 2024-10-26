@@ -4,12 +4,18 @@
 <head>
     <title>Portfolio Name</title>
     <meta charset="utf-8">
+    <link rel="icon" href="images/NGNEW.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- linking css file -->
     <link rel="stylesheet" href="style.css">
     <!-- bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" async>
+    <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+  rel="preload"
+  as="style"
+  onload="this.rel='stylesheet'"
+>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
@@ -17,7 +23,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
         <div class="container">
-            <a class="navbar-brand" href="#">Noureddine Gherri</a>
+            <a href="#"><img  src="images/NGNEW.png" class="navbar-brand"  alt="Logo NG"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -26,19 +32,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#home">Accueil</a>
+                     <a class="nav-link" href="#home">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">A propos</a>
+                          <a class="nav-link" href="#about">A propos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">Compétences</a>
+                         <a class="nav-link" href="#skills">Compétences</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Projets</a>
+                         <a class="nav-link" href="#portfolio">Projets</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contactez-moi</a>
+                      <a class="nav-link" href="#contact">Contactez-moi</a>
                     </li>
                 </ul>
 
@@ -64,7 +70,7 @@
             <h2 class="text-center">A propos</h2>
             <div class="row mt-4">
                 <div class="col-lg-4">
-                    <img src="images/person.png" class="imageAboutPage" alt="">
+                    <img src="images/person.png" class="imageAboutPage" alt="GN">
                 </div>
 
                 <div class="col-lg-8">
@@ -91,6 +97,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- skills section-->
@@ -104,6 +111,7 @@
     <section id="portfolio">
         <div class="container mt-3">
             <h2 class="text-center">Mes projets</h2>
+        </div>
     </section>
 
     <!-- contact section-->
