@@ -41,8 +41,8 @@ img.navbar-brand{
     max-height: 900px;
     background: url("images/image1.jpg");
     background-size: cover;
-    position: relative;
-    opacity: 0.3;
+
+    opacity: 0.6;
     
 }
 /* text css above hero image*/
@@ -60,7 +60,7 @@ img.navbar-brand{
     background-color: rgba(0, 0, 0, 0.4); /* Fond semi-transparent */
     padding: 10px;
     border-radius: 5px;
-    
+}   
 
 .hero_desc {
     font-size: 2rem;
@@ -126,5 +126,4 @@ img.navbar-brand{
 }
 
 /* footer */
-
 
